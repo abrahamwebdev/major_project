@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}
+    Home Page
+{% endblock %}
+{% block content %}
+    <!-- <h1>Home Page</h1> -->
+    <div class="container">
+    <div class="columns">
+        <div class="column is-one-fifth">
+        </div>
+
+
+
+        <div class="column is-three-fifths">
+            <div class="section">
+            	<p class="block title">Solve the below CAPTCHA to prove you are not a robot </p>
+            	<p class="block">
+                	<p class="is-size-5">Draw {{random_no}} in the canvas given below.</p>
+            	</p>
+            </div>    
+        </div>
+        
+
+
+        <div class="column is-one-fifth">
+		</div>
+	</div>
+    </div>
+{% endblock %}
