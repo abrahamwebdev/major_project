@@ -5,10 +5,6 @@ name = "pypi"
 
 [packages]
 flask = "*"
-tensorflow = "*"
-numpy = "*"
-matplotlib = "*"
-opencv-python = "*"
 
 [dev-packages]
 
